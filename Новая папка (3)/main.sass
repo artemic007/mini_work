@@ -1,0 +1,208 @@
+
+body
+    
+    margin: 0
+    padding: 0
+    font-family: 'Roboto Slab', serif
+.header
+    
+    display: flex
+    height: auto
+    &-left
+        position: relative
+        left: 0
+        top: 0
+        width: 40%
+        z-index: 1
+        background-color: #ffd9de    
+        background-image: linear-gradient(315deg, #ffd9de 0%, #e99ba6 74%)
+        overflow: auto
+        height: 550px
+        &__wrapper // ДЛЯ ЛОГОТИПА
+           
+        &__logo
+            width: 90%
+        &__img
+            text-align: center
+
+        &__decr
+            display: flex
+            justify-content: flex-end
+            margin-right: 34px
+            font-size: 18px
+            font-weight: 400
+            color: #fffff
+            font-weight: bold
+            opacity: 0.3
+    &-nav
+        display: flex
+        justify-content: flex-end
+        margin-right: 37px
+        text-align: right
+
+        &__link
+            color: #000000
+            font-weight: lighter
+            text-transform: uppercase
+            line-height: 69px
+            font-size: 16px
+            text-decoration: none
+            color: #ff1693
+            &::after
+                content: ''
+                display: block
+                position: absolute
+                border-bottom: 2px
+                background-image: linear-gradient( #c53063 3%, rgba(255, 255, 255, 0.36) 100%)
+                opacity: 0.4
+                right: 0
+                left: 0
+                height: 1px
+                background-color: white
+                
+        ul
+            list-style: none
+
+  
+
+
+    &-right
+        position: relative
+        right: 0 
+        top: 0
+        width: 60%
+        
+        overflow: auto
+        &__main
+            width: 100%
+            height: 550px
+
+
+.main
+    overflow: hidden
+    margin-top: -2rem
+   
+    padding: 0
+    width: 100%
+
+    &-wrapper
+        
+    
+
+    &-blocks
+        padding: 0
+        margin: 0
+        width: 100%
+        display: flex
+        justify-content: center
+    &-block
+        display: flex
+        width: 100%
+    &-decr__wrapper
+        font-weight: 300
+        min-width: 50px
+        background-color: #cf4fef
+
+    &-decr
+        
+        writing-mode: vertical-rl
+        transform: rotate(-180.0deg)
+        margin-top: 250px
+        text-transform: uppercase
+        color: #ffffff
+        font-size: 22px
+        font-weight: 300
+        line-height: 1px
+        margin-left: -5px
+        align-items: center
+        
+        
+        
+       
+
+    &-img
+        
+        width: 100%
+        background-size: cover
+
+.footer
+    width: 100%
+    display: flex
+
+    &-left
+        width: 50%
+        position: relative
+        left: 0
+        top: 0
+        width: 50%
+        overflow: 
+        
+        &__wrap
+
+        &__img
+            width: 100%
+
+
+    &-right
+        width: 50%
+        position: relative
+        left: 0
+        top: 0
+
+
+        &__wrap 
+        display: flex  
+        justify-content: center
+        align-items: flex-start
+        text-align: center
+
+        &__title
+
+            margin-top: 50px
+            font-size: 36px
+            font-weight: 700
+            line-height: 72px
+            text-transform: uppercase
+            color: #c53063      
+            margin-bottom: 34px
+        
+        &__decr
+            color: #000000
+            font-size: 22px
+            font-weight: 700
+            line-height: 72px
+            text-transform: uppercase
+        &__btn
+            padding: 18px 70px
+            border-radius: 27px
+            border: 0
+            background-color: #ef4e89
+            box-shadow: 0 3px 0 rgba(197, 48, 99, 0.88)
+            font-size: 22px
+            font-weight: 700
+            line-height: 14px
+            text-transform: uppercase
+            color: #ffffff
+
+        &__blocks
+            display: flex
+            margin-top: 70px 
+            vertical-align: middle  
+            justify-content: center  
+            margin-left: 16px
+
+        &__blocks1
+            display: flex
+            margin-top: 70px
+            margin-left: 46px
+            justify-content: center
+            
+
+        &__descr
+            font-size: 18px
+            font-weight: 400
+            margin-left: 20px
+        &__img
+            height: 49px
+            margin-left: 46px
+

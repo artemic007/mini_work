@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="animate.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+
+<header class="header">
+
+    <div class="header-left">
+            <div class="header-left__overlay">
+            <div class="header-left__wrapper">  
+                  <div class="header-left__img"><img src="img/лого.png" alt="" class="header-left__logo"></div><!-- Конец дива с  лого -->
+                <p class="header-left__decr">Воплащаем идею в значимый актив</p><!--Конец дива про описание-->
+            </div><!--Конец дива с обёрткой для лого+текста-->
+                <div class="header-nav">
+                <ul>
+                    <li><a href="#" class="header-nav__link">О компании</a></li>
+                    <li><a href="#" class="header-nav__link">Почему мы</a></li>
+                    <li><a href="#" class="header-nav__link">Наша мебель</a></li>
+                    <li><a href="#" class="header-nav__link">Отзывы и благодарность</a></li>
+                    <li><a href="#" class="header-nav__link">Контакты</a></li>
+                </ul>
+
+                   </div>
+                </div>
+                <!-- /.header-left__column -->
+            </div>
+    </div>
+    <div class="header-right">
+        <div class="header-right__img"><img src="img/фото.png" alt="" class="header-right__main"></div>
+    </div>
+</header>
+<div class="main">
+    <div class="main-wrapper">
+        <div class="main-blocks">
+            <div class="main-block">
+                   
+                    <div class="main-decr__wrapper">  <div class="main-decr"> <h2>
+                            Гардеробные
+                        </h2></div>  
+                    </div>
+                <img src="img/kitchen-main(1).png" alt="" class="main-img">
+             
+                
+                <!-- /.main-decr -->
+            </div>
+            <!-- /.main-block -->
+            <div class="main-block">
+               <div class="main-decr__wrapper">  <div class="main-decr"> <h2>
+                        Гардеробные
+                    </h2></div>  
+                </div>
+                <img src="img/kitchen-main(2).png" alt="" class="main-img">
+                
+                  
+                
+                <!-- /.main-decr -->
+            </div>
+            <!-- /.main-block -->
+            <div class="main-block">
+                    <div class="main-decr__wrapper">  <div class="main-decr"> <h2>
+                            Гардеробные
+                        </h2></div>  
+                    </div>
+                <img src="img/kitchen-main(3).png" alt="" class="main-img">
+              
+                <!-- /.main-decr -->
+            </div>
+            <!-- /.main-block -->
+            <div class="main-block">
+                
+                    <div class="main-decr__wrapper">  <div class="main-decr"> <h2>
+                            Гардеробные
+                        </h2></div>  
+                    </div>
+                <img src="img/kitchen-main(4).png" alt="" class="main-img">
+                
+                
+                <!-- /.main-decr -->
+            </div>
+            <!-- /.main-block -->
+        </div>
+        <!-- /.main-blocks -->
+    </div>
+    <!-- /.main-wrapper -->
+</div>
+<!-- /.main -->
+
+<div class="footer">
+    <div class="footer-left">
+        <div class="footer-left__wrap">
+            <img src="img/footer-main.png" alt="" class="footer-left__img">
+        </div>
+    </div>
+
+
+
+
+    
+    <div class="footer-right">
+        <div class="footer-right__wrap">
+          <div class="footer-right__title">Шкафы-купе</div>
+          <!-- /.header-right__title -->
+          <div class="footer-right__decr">по индивидальному проекту
+        </div>
+          <!-- /.header-right__decr -->
+          <button class="footer-right__btn">Заказать</button>
+          <!-- /.header-right__btn -->
+          <div class="footer-right__blocks1">
+              <img src="img/доставка (1).png" alt="" class="footer-right__img">
+              <div class="footer-right__descr">
+                Доставка <br>
+                бесплатно
+            </div>
+              <img src="img/дизайнер(4).png" alt="" class="footer-right__img">
+              <div class="footer-right__descr">
+                Выезд дизайнера <br>
+                бесплатно
+                
+            </div>
+        </div>
+        <div class="footer-right__blocks">
+              <img src="img/оплата(3).png" alt="" class="footer-right__img">
+              <div class="footer-right__descr">
+                Оплата любым <br>
+                способом
+            </div>
+            
+              <img src="img/замер(2).png" alt="" class="footer-right__img">
+              <div class="footer-right__descr"> Замеры <br>
+                бесплатно
+                
+            </div>
+        </div>
+          <!-- /.footer-right__blocks -->
+        </div>
+    </div>
+</div>
+
+<!---<div class="kek">
+
+ <div class="kek1">
+     <img src="img/дизайнер(4).png" alt="">
+     <img src="img/оплата(3).png" alt="">
+ </div>
+<div class="kek2">
+    <img src="img/замер(2).png" alt="">
+    <img src="img/доставка (1).png" alt="">
+</div>
+-->
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-3.3.1.js"><\/script>')</script>
+    <script>
+    
+    $(document).ready(function(){
+            $('.knopka').on("click",function(){
+                $('.overlay').show()
+            });
+            $('.popup-close').on("click",function(){
+                $('.overlay').hide();
+           
+        });
+        $('h2').click(function(){
+            $(this).toggleClass('blue')
+        });
+
+     //   $('.knopka').delay('122').hide('222').delay(200).show(200);
+
+        $('.img1').click(function(){
+            $(this).fadeOut(500, function(){
+                $(this).attr('src','img/man2.png').fadeIn(500);
+                
+
+            });
+        });
+    });
+    </script>
+<script src="wow.min.js.js"></script>
+<script>
+
+new WOW().init();
+</script>
+</body>
+</html>
